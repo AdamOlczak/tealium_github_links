@@ -1,7 +1,6 @@
 var TMSHelper = {
 	toLower: function (input) {
-		//return input.toLowerCase();
-		return input
+		return input.toLowerCase();
 	}
 };
 
