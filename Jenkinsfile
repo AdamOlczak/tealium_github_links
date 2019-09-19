@@ -6,9 +6,13 @@ pipeline {
 
   }
   stages {
-    stage('build') {
+    stage('requirements') {
       steps {
-        sh 'npm install'
+        sh 'sudo npm install'
+      }
+    }
+    stage('test') {
+      steps {
         sh 'npm test'
       }
     }
