@@ -10,7 +10,7 @@
 		});
 		describe('#toUpper()', function () {
 			it('should convert strings to uppercase correctly', function () {
-				expect(TMSHelper.toUpper('test')).to.equal('TEST');
+				expect(TMSHelper.toUpper('lorem ipsum')).to.equal('LOREM IPSUM');
 			});
 		});
 	});
