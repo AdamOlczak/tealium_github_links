@@ -3,7 +3,7 @@ var TMSHelper = {
 		return input.toLowerCase();
 	},
 	toUpper: function (input) {
-		return input.toUpperCase();
+		return input.toUpperCase() + 'AAA';
 	}
 };
 
