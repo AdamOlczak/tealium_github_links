@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('requirements') {
       steps {
-        sh 'npm install'
+        sh 'npm ci'
       }
     }
     stage('test') {
